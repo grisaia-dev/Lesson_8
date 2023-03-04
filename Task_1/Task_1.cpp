@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <Windows.h>
+//#include <Windows.h>
 
 int function(std::string str, int forbidden_length) {
     if (str.length() == forbidden_length) throw forbidden_length;
@@ -7,8 +7,8 @@ int function(std::string str, int forbidden_length) {
 }
 
 int main() {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    //SetConsoleCP(1251);
+    //SetConsoleOutputCP(1251);
 
     int bad_word_length, word_length;
     std::string word;
