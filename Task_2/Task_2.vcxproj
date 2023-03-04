@@ -127,7 +127,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Figures\CatchError.cpp" />
+    <ClCompile Include="Figures\EquilateralTriangle.cpp" />
+    <ClCompile Include="Figures\Figure.cpp" />
+    <ClCompile Include="Figures\IsoscelesTriangle.cpp" />
+    <ClCompile Include="Figures\Parallelogram.cpp" />
+    <ClCompile Include="Figures\Quadrilateral.cpp" />
+    <ClCompile Include="Figures\Rectangle.cpp" />
+    <ClCompile Include="Figures\Rhombus.cpp" />
+    <ClCompile Include="Figures\RightTriangle.cpp" />
+    <ClCompile Include="Figures\Square.cpp" />
+    <ClCompile Include="Figures\Triangle.cpp" />
     <ClCompile Include="Task_2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Figures\CatchError.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Figures\EquilateralTriangle.hpp" />
+    <ClInclude Include="Figures\Figure.hpp" />
+    <ClInclude Include="Figures\IsoscelesTriangle.hpp" />
+    <ClInclude Include="Figures\Parallelogram.hpp" />
+    <ClInclude Include="Figures\Quadrilateral.hpp" />
+    <ClInclude Include="Figures\Rectangle.hpp" />
+    <ClInclude Include="Figures\Rhombus.hpp" />
+    <ClInclude Include="Figures\RightTriangle.hpp" />
+    <ClInclude Include="Figures\Square.hpp" />
+    <ClInclude Include="Figures\Triangle.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
